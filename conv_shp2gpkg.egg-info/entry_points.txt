@@ -1,0 +1,2 @@
+[console_scripts]
+convertir-shp = conv_shp2gpkg.__main__:main
