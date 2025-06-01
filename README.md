@@ -29,21 +29,25 @@ reproyectándolos al sistema de coordenadas deseado. Ideal para flujos de trabaj
   - `shapely`
   - `pyproj`
 
-Instalación de dependencias:
-
-```bash
-pip install -r requirements.txt
-```
-
 ---
 
 ## 🚀 Instalación
 
 ```bash
-git clone https://github.com/tuusuario/conv_shp2gpkg.git
-cd conv_shp2gpkg
-pip install .
+git clone https://github.com/K3vin91/shp2gpkg.git
 
+### Instalación de dependencias:
+
+```bash
+pip install -r requirements.txt
+```
+
+Es necesario desplazarse a la carpeta en la que se descargo con la terminal o powershell:
+
+```bash
+cd shp2gpkg
+py -m pip install .
+```
 
 ## 🚀 Uso
 
