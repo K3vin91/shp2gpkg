@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="conv_shp2gpkg",
+    name="shp2gpkg",
     version="0.1",
     packages=find_packages(),
     install_requires=[
@@ -9,7 +9,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "conv_shp2gpkg=conv_shp2gpkg.__main__:main",
+            "shp2gpkg=shp2gpkg.__main__:main",
         ]
     },
     author="Kevin",

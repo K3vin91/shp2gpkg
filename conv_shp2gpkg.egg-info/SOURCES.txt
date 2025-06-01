@@ -1,9 +1,0 @@
-README.md
-pyproject.toml
-setup.py
-conv_shp2gpkg.egg-info/PKG-INFO
-conv_shp2gpkg.egg-info/SOURCES.txt
-conv_shp2gpkg.egg-info/dependency_links.txt
-conv_shp2gpkg.egg-info/entry_points.txt
-conv_shp2gpkg.egg-info/requires.txt
-conv_shp2gpkg.egg-info/top_level.txt

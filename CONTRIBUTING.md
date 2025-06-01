@@ -1,4 +1,4 @@
-# Contribuir a conv_shp2gpkg
+# Contribuir a shp2gpkg
 
 ¡Gracias por tu interés en contribuir a este proyecto!
 

@@ -1,11 +1,11 @@
 
-# Herramienta conv_shp2gpkg
+# Herramienta shp2gpkg
 
 <p align="center">
-  <img src="assets/icono.png" alt="conv_shp2gpkg icono" width="150"/>
+  <img src="assets/icono.png" alt="shp2gpkg icono" width="150"/>
 </p>
 
-**conv_shp2gpkg** es una herramienta de línea de comandos escrita en Python que convierte archivos Shapefile (.shp) en GeoPackage (.gpkg), 
+**shp2gpkg** es una herramienta de línea de comandos escrita en Python que convierte archivos Shapefile (.shp) en GeoPackage (.gpkg), 
 reproyectándolos al sistema de coordenadas deseado. Ideal para flujos de trabajo SIG automatizados.
 
 ---
@@ -37,10 +37,18 @@ pip install -r requirements.txt
 
 ---
 
+## 🚀 Instalación
+
+```bash
+git clone https://github.com/tuusuario/conv_shp2gpkg.git
+cd conv_shp2gpkg
+pip install .
+
+
 ## 🚀 Uso
 
 ```bash
-python -m conv_shp2gpkg --entrada "ruta/a/las/capas" --salida "ruta/destino/gpkg" --epsg 32616
+python -m shp2gpkg --entrada "ruta/a/las/capas" --salida "ruta/destino/gpkg" --epsg 32616
 ```
 
 ### Parámetros
@@ -57,7 +65,7 @@ python -m conv_shp2gpkg --entrada "ruta/a/las/capas" --salida "ruta/destino/gpkg
 ## 🧪 Ejemplo
 
 ```bash
-python -m conv_shp2gpkg --entrada "C:/SIG/DatosBrutos" --salida "C:/SIG/Geopackages" --epsg 32616
+python -m shp2gpkg --entrada "C:/SIG/DatosBrutos" --salida "C:/SIG/Geopackages" --epsg 32616
 ```
 
 ---
