@@ -1,0 +1,40 @@
+
+# Carpetas de Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.pyo
+*.pyd
+
+# Salida de compilaciones
+build/
+dist/
+
+# Archivos generados por setuptools o pip
+*.egg
+.eggs/
+.installed.cfg
+*.manifest
+
+# Archivos de entorno virtual
+.env
+.venv/
+env/
+venv/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de salida de tu script
+resumen_conversion.txt
+
+# Logs
+*.log
+
+# Archivos de VSCode (si usas ese editor)
+.vscode/
+
+# Carpeta de pruebas local (si usas una)
+tests/__pycache__/
