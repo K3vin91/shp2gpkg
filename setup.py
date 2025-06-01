@@ -9,7 +9,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "convertir-shp=conv_shp2gpkg.__main__:main",
+            "conv_shp2gpkg=conv_shp2gpkg.__main__:main",
         ]
     },
     author="Kevin",
