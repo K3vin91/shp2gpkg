@@ -53,23 +53,6 @@ python -m conv_shp2gpkg --entrada "ruta/a/las/capas" --salida "ruta/destino/gpkg
 
 ---
 
-## 📁 Estructura del proyecto
-
-```
-conv_shp2gpkg/
-├── conv_shp2gpkg/
-│   ├── __init__.py
-│   └── __main__.py
-├── assets/
-│   └── icono.png
-├── resumen_conversion.txt
-├── setup.py
-├── pyproject.toml
-├── LICENSE
-└── README.md
-```
-
----
 
 ## 🧪 Ejemplo
 
