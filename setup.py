@@ -6,13 +6,14 @@ setup(
     packages=find_packages(),
     install_requires=[
         "geopandas",
+        "tqdm"
     ],
     entry_points={
         "console_scripts": [
             "shp2gpkg=shp2gpkg.__main__:main",
         ]
     },
-    author="Kevin",
+    author="Kevin Irias",
     description="Herramienta para convertir shapefiles a GeoPackage con reproyección.",
     classifiers=[
         "Programming Language :: Python :: 3",
